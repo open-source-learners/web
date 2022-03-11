@@ -1,0 +1,470 @@
+#col {
+    height: 250px;
+    width: 150px;
+    margin-top: 120px;
+}
+
+#navlist {
+    margin-left: 720px;
+    margin-top: -70px;
+    padding: 15px;
+    display: inline;
+   
+}
+
+#font {
+  font-family: Arial Narrow;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+
+.ff {
+  margin-left: 132px;
+  margin-top: -20px;
+}
+
+#active {
+  color: white;
+  font-family: Arial Narrow;
+  font-weight: bold;
+  font-size: 20px;
+  font-variant: small-caps;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.lead {
+    color: green;
+    bottom: -50px;
+}
+
+.text1 {
+    color: green;
+    font-family: Arial Narrow;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#home1 {
+    background-color:rgb(89, 139, 89);
+    z-index: 10;
+  
+}
+
+.nav-link {
+    font-family: Arial Narrow;
+    font-weight: bolder;
+    font-variant: small-csaps;
+    font-size: 150%;
+}
+
+#middle {
+    display: grid;
+    grid-template-columns: 50%, 50%;
+}
+#h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font: optional;
+    font-display: 100%;
+    color: green;
+}
+
+.contain {
+    position: relative;
+    font-family: Arial;
+    top: 50px;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(27, 77, 33);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .contain {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 34px;
+  
+  }
+  
+  .contain img {vertical-align: middle;}
+  
+  .contain .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #showcase {
+    background-color: rgb(57, 194, 57);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.conteiner {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.cards {
+  box-shadow: 0 6px 8px 0 pink;
+  max-width: 350px;
+  height: 500px;
+  margin: auto;
+  margin-top:-450px;
+  margin-left: 800px;
+  text-align: center;
+  font-family: arial;
+}
+
+.con {
+  margin-top: 10px;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.note {
+    height: 258px;
+}
+
+.containers {
+  color: green;
+}
+
+#about {
+  color: green;
+}
+
+.containi {
+  color: black;
+}
+
+.text {
+  font-family: Arial Narrow;
+  font-variant: small-caps;
+    font-weight: bold;
+}
+
+.text-muted {
+  font-family: Arial;
+}
+
+.active {
+  display: inline;
+  padding: 20px;
+}
+
+.show {
+  margin-top: 120px;
+}
+
+.algerian {
+  font-family: algerian;
+  font-size: xx-large;
+}
+
+.nav-item {
+  color:green;
+}
+/* this is the glow animation style */
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+/* Set the glow text colors that make the nav text animated by color */
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 70px #fff, 0 0 70px #fff, 0 0 70px #e60073, 0 0 50px #e60073, 0 0 50px #e60073, 0 0 50px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 50px #fff, 0 0 30px #029209, 0 0 40px #029209, 0 0 50px #029209, 0 0 60px #029209, 0 0 70px #029209, 0 0 80px #029209;
+  }
+}
+
+#small {
+  font-family: Arial;
+  font-style: initial;
+  font-variant: small-caps;
+  font-display: 100%;
+  font-size: 50px;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: Arial;
+  font-variant: small-caps;
+  font-weight: bolder;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the contaner/contact section */
+.contaner {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* the form label style */
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color:blue;
+  }
+
+  /* this class is the contact form title "Do You Want to Join Us?" */
+.why {
+    font-family: Arial Narrow;
+    font-size: 35px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    margin-left: 570px;
+    color: green;
+}
+
+/* this id is the style of the logo text (Open Source Learners) anywhere seen in the website of different heading size */
+#h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font: optional;
+    font-display: 100%;
+    color: white;
+    height: 20px;
+    margin-right: 800px;
+}
+
+/* Like the above style but different id name  */
+#h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  font: optional;
+  font-display: 100%;
+  color: green;
+  height: 20px;
+  margin-right: 800px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* style any placeholder */
+::placeholder {
+  font-family: Arial Narrow;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.button {
+  border-radius: 4px;
+  background-color:green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin:150px 0px 0px 0px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#demo {
+    color: blue;
+    font-family: algerian;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+
+}  
+
+#newsletter {
+  margin-top: 50px;
+}
+
+.hhh {
+  font-family: Arial Narrow;
+}
+
+.fa fa-users {
+  color: #000;
+}
