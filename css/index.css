@@ -1,6 +1,6 @@
-  nav div h3{
-    color: green;
-  }
+#active, nav div h3{
+  color: green;
+}
 #col {
     height: 250px;
     width: 150px;
