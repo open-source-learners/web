@@ -1,8 +1,7 @@
+# contributors 
 <a href="https://github.com/open-source-learners/web/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=open-source-learners/web" />
 </a>
-
-Made with [contrib.rocks](https://contrib.rocks).
 
 ## Getting Started
 
