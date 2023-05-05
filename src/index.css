@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 5;
+  padding: 5;
+  font-family: 'Roboto';
+}
+img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 2rem;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+nav ul li a{
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.hero{
+  background-image: url('./images/img/Coding.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: green;
+  text-align: center;
+  width: 100%;
+
+}
+.hero h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.hero-content{
+  width: 50%;
+}
+.newsletter{
+  background-color: #f1f1f1;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.newsletter h1{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.newsletter p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.newsletter input{
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 1rem;
+}
+.newsletter button{
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: green;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.newsletter button:hover{
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.footer{
+  background-color: #000;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.sec{
+  padding: 2rem 0;
+}
+.sec .values{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sec .values .box{
+  width: 30%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+.sec .values .box:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
