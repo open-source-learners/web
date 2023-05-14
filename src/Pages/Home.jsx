@@ -21,7 +21,7 @@ function Home() {
             </div>
           </div>
           {/* image */}
-          <img className="flex w-1/2" src="/logo.png" alt="logo" />
+          <img className="flex w-1/2" src="./logo.png" alt="logo" />
         </div>
       </section>
         <div className="text-center text-2xl md:text-5xl">The Way Forward is Open</div>
@@ -154,19 +154,19 @@ function Home() {
         </p>
         <div className="team-members">
           <div className="team-member">
-            <img className="w-12 h-12" src="/logo.png" alt="images" />
+            <img className="w-12 h-12" src="./logo.png" alt="images" />
             <h3>ADAMU M. MUHAMMAD</h3>
 
             <span>Founder and Lead</span>
             <p>computer science and software engineering student</p>
           </div>
           <div className="team-member">
-            <img className="w-12 h-12" src="/logo.png" alt="team-member-2" />
+            <img className="w-12 h-12" src="./logo.png" alt="team-member-2" />
             <h3>MUBARAK M. IBRAHIM</h3>
             <p>computer science and software engineering student</p>
           </div>
           <div className="team-member">
-            <img className="w-12 h-12" src="/logo.png" alt="team-member-3" />
+            <img className="w-12 h-12" src="./logo.png" alt="team-member-3" />
             <h3>IBRAHIM TAMBAYA KUMU</h3>
             <p>computer science and software engineering student</p>
           </div>

@@ -9,7 +9,7 @@ function Header() {
         {/* logo */}
         <div className="">
           <Link to="/home">
-            <img className="w-10 h-10 " src="/logo.png" alt="logo" />
+            <img className="w-10 h-10 " src="./logo.png" alt="logo" />
           </Link>
         </div>
         {/* menu items  */}
